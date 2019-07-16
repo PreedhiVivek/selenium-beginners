@@ -45,7 +45,6 @@ time.sleep(2) #Adding waits to make the example more visual
 
 # Click the GUI automation link
 gui_automation = driver.find_element_by_xpath("//a[text()='GUI automation']")
-gui_automation.click()
 
 # Wait for 3 seconds for the page to load
 time.sleep(3)
